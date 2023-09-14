@@ -1,0 +1,4 @@
+https://openaccess.thecvf.com/content_CVPR_2020/papers/Kim_Modeling_Biological_Immunity_to_Adversarial_Examples_CVPR_2020_paper.pdf
+
+Layer Norm may be effective because it brings inputs back into in-distribution, even if destructively.
+How can we do this in a learnable, more nuanced way? a simple, differential way to implement ^ ?

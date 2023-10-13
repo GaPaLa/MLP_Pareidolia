@@ -2,3 +2,12 @@ https://openaccess.thecvf.com/content_CVPR_2020/papers/Kim_Modeling_Biological_I
 
 Layer Norm may be effective because it brings inputs back into in-distribution, even if destructively.
 How can we do this in a learnable, more nuanced way? a simple, differential way to implement ^ ?
+---> NO!:
+"As we can see, DetachNorm perform worse than “w/o Norm”, showing that forward
+normalization has little to do with the success of LayerNorm"
+https://proceedings.neurips.cc/paper_files/paper/2019/file/2f4fe03d77724a7217006e5d16728874-Paper.pdf
+
+
+
+theory: when we encounter something, the lower layers of perception forst simplify it to something we are more familiar with if it is close enough.
+if it is wrong we likely are confused by something an realise we need to observe  closer -> the simplification is relaxed.
